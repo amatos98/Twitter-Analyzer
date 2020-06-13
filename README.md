@@ -1,5 +1,5 @@
 # Twitter-Analyzer
-## This project was implemented in Hadoop to process and manipulate a large and unstructured dataset consisted of Twitter posts to rank the popularity of users, tweets, hashtags, and pairs of hashtags 
+## This project was implemented in Hadoop to process and manipulate a large and unstructured dataset consisted of Twitter posts to rank the popularity of users, tweets, hashtags, and pairs of hashtags. 
 
 Running the program 
 
@@ -16,4 +16,8 @@ Running the program
 * out:
   * This is a path to a directory where files will be written at the end of map-reduce.
   * The directory must not exist when the program is run, or else Hadoop will throwan error. As an example, typing the command
-  java -jar twitter.jar user 500 in.csv out should result in ranking the users with at least a score of 500.
+  
+  java -jar twitter.jar user 500 in.csv out 
+  
+  
+  should result in ranking the users with at least a score of 500.
