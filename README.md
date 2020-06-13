@@ -1,7 +1,7 @@
 # Twitter-Analyzer
 ## This project was implemented in Hadoop to process and manipulate a large and unstructured dataset consisted of Twitter posts to rank the popularity of users, tweets, hashtags, and pairs of hashtags. 
 
-Running the program 
+### Running the program
 
 * Trending param:
   * The key to be used for themap-reduce.
