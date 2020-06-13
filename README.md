@@ -1,6 +1,7 @@
 # Twitter-Analyzer
 
 Running the program 
+
 *Trending param:
   * The key to be used for themap-reduce.
   * Choices: user, tweet, hashtag or hashtag_pair.
